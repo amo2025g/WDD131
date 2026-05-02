@@ -1,13 +1,19 @@
-div {
+.center {
   align-content: center;
   width: 470px;
   margin: 0 auto;
-  outline-color: black;
-  outline-width: 1px;
+}
+
+div {
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  outline: 1px solid black;
 }
 
 h1, h5 {
   text-align: center;
+  text-decoration: none;
 }
 
 h1 {
@@ -16,12 +22,12 @@ h1 {
 
 h5 {
   color: #598ed4;
-  letter-spacing: 3px;
-  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 img {
-  width: 100px;
+  width: 110px;
   align-content: center;
   display: block;
   margin: 0 auto;
