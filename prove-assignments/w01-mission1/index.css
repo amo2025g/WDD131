@@ -1,0 +1,28 @@
+div {
+  align-content: center;
+  width: 470px;
+  margin: 0 auto;
+  outline-color: black;
+  outline-width: 1px;
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+}
+
+h5 {
+  color: #598ed4;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+}
