@@ -8,7 +8,12 @@ div {
   padding: 40px;
   padding-left: 100px;
   padding-right: 100px;
-  outline: 1px solid black;
+  outline: 1px solid var(--primary-color);
+}
+
+body {
+  background-color: var(--base-color);
+  color: var(--text-color);
 }
 
 h1, h5 {
@@ -16,12 +21,16 @@ h1, h5 {
   text-decoration: none;
 }
 
+hr {
+  color: var(--accent-color);
+}
+
 h1 {
   letter-spacing: 1.5px;
 }
 
 h5 {
-  color: #598ed4;
+  color: var(--quadrary-text);
   letter-spacing: 2px;
   line-height: 30px;
 }
@@ -31,4 +40,32 @@ img {
   align-content: center;
   display: block;
   margin: 0 auto;
+}
+
+:root{
+  --base-color: white;
+  --text-color: black;
+  --primary-color: #393939;
+  --quadrary-text: #598ed4;
+  --accent-color: #25374e;
+}
+
+.darkmode{
+  --base-color: #393939;
+  --text-color: #e8e9ed;
+  --primary-color: #acacb8;
+  --quadrary-text: #9bd5ff;
+  --accent-color: rgb(132, 144, 189);
+}
+
+#theme-switch img:last-child{
+  display: none;
+}
+
+.darkmode #theme-switch img:first-child{
+  display: none;
+}
+
+.darkmode #theme-switch img:last-child{
+  display: block;
 }
