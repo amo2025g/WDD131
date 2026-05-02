@@ -1,0 +1,64 @@
+#page {
+  width: 765px;
+  height: 785px;
+  margin: 0 auto;
+  background-color: #dedede;
+  padding-top: 25px;
+}
+
+#content {
+  width: 720px;
+  height: 760px;
+  align-content: center;
+  margin: 0 auto;
+  border: 0.5px solid #ababab;
+  background-color: #dedede;
+}
+
+h1, p {
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: -1px;
+}
+
+p {
+  font-size: 20px;
+  color: #4878c7;
+}
+
+img {
+  width: 330px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+hr {
+  background-color: #4878c7;
+  border: 0 none;
+  color: #4878c7;
+  height: 2.5px;
+  margin: auto 105px
+}
+
+#topics {
+  width: 390px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+}
+
+#topics h2 {
+  letter-spacing: -1px;
+}
+
+#topics li {
+  line-height: 25px;
+}
