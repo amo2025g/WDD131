@@ -62,3 +62,11 @@ ul {
 #topics li {
   line-height: 25px;
 }
+
+label {
+  display:none;
+}
+
+select {
+  display: block;
+}
