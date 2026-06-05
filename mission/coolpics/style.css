@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(201, 201, 201);
+  margin: 0;
+}
+
+header {
+  color: aliceblue;
+  text-align: center;
+  height: 100%;
+  background-color: rgb(52, 146, 255);
+  padding-top: 7px;
+}
+
+h1 {
+  font-size: 27px;
+}
+
+h1, main h3, header p, header nav ul li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header p {
+  font-size: 17px;
+}
+
+header nav ul {
+  display: block;
+  display: none;
+}
+
+main h3 {
+  text-align: center;
+  font-size: 19px;
+}
+
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.gallery {
+  display: grid;
+  place-items: center;
+  row-gap: 20px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 0.5rem solid rgb(252, 254, 255);
+  outline: 1px solid rgb(147, 147, 147);
+  box-shadow: 1px 5px 5px 4px rgb(69, 69, 69);
+}
+
+footer {
+  max-width: 2000px;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 20px;
+  font-size: 10px;
+  background-color: rgb(52, 146, 255);
+}
+
+@media screen and (min-width: 700px) {
+.gallery {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 2;
+  row-gap: 50px;
+}
+
+  header h1, header nav ul li, header nav ul, header p {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li, header nav ul li a, header p, footer {
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+header nav ul {
+  gap: 20px;
+}
+
+ header p {
+  display: block;
+  display: none;
+}
+
+
+}
