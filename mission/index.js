@@ -11,21 +11,18 @@ function changeTheme() {
 
       const text = document.querySelector("h5");
       text.style.color = "#9bd5ff";
-
-    logo.src = "img/byui-logo-white.png";
-    logo.alt = "BYUI Logo";
-
-    document.querySelector(".center").style.outlineColor = "#acacb8";
-        // code for changes to colors and logo
+      
+      logo.src = "img/byui-logo-white.png";
+      logo.alt = "BYUI Logo";
+      document.querySelector(".center").style.outlineColor = "#acacb8";
     } else {
       document.body.style.backgroundColor = "white";
       document.body.style.color = "black";
-
+      
       const text = document.querySelector("h5");
       text.style.color = "#598ed4";
       
       logo.src = "img/byui-logo-blue.webp";
       logo.alt = "BYUI Logo";
     }
-}           
-                    
+ }
