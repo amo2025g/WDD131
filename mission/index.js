@@ -23,11 +23,9 @@ function changeTheme() {
 
       const text = document.querySelector("h5");
       text.style.color = "#598ed4";
-
-
+      
       logo.src = "img/byui-logo-blue.webp";
-    logo.alt = "BYUI Logo";
-    document.querySelector("#logo").appendChild(logo);
+      logo.alt = "BYUI Logo";
     }
 }           
                     
