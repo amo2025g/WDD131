@@ -28,6 +28,15 @@ header nav ul {
   display: none;
 }
 
+header p.menu-toggle {
+  display: block;
+}
+
+header nav ul.show {
+  display: block;
+}
+
+
 main h3 {
   text-align: center;
   font-size: 19px;

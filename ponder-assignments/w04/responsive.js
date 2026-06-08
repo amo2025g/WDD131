@@ -1,6 +1,6 @@
 /* two dom elements the user will be interacting with */
 const menu = document.querySelector('nav');
-const  btn = document.querySelector('.menu-btn');
+const btn = document.querySelector('.menu-btn');
 
 /*user is listening for a click, we either do anon functions ('click', function(){ or you can call functions*/
 btn.addEventListener('click', toggleMenu);
