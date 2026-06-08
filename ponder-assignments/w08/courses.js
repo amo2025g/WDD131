@@ -35,8 +35,8 @@ function renderSections(sections) {
 renderSections(aCourse.sections);
 
 document.querySelector("#enrollStudent").addEventListener("click", function () {
-    const sectionNum = document.querySelector("#sectionNumber").value;
-    aCourse.enrollStudent(sectionNum);
+  const sectionNum = document.querySelector("#sectionNumber").value;
+  aCourse.enrollStudent(sectionNum);
 });
 
 
