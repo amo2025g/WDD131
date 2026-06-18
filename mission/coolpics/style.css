@@ -26,6 +26,15 @@ header button {
   color: white;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  color: white;
+  text-decoration: none;
+}
+
 /* header nav {
   display: none;
 }
@@ -126,4 +135,5 @@ header button {
 
 header nav {
   display: block;
+}
 }
