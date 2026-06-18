@@ -36,10 +36,16 @@ modal.addEventListener('click', (event) => {
 
 
 /* two dom elements the user will be interacting with */
-const menu = document.querySelector('header ul nav');
-const menuToggle = document.querySelector('.menu');
+// const menu = document.querySelector('header ul nav');
+// const menuToggle = document.querySelector('.menu');
 
+const button = document.querySelector('.menu');
+const nav = document.querySelector('nav');
+button.addEventListener('click', menuToggle);
+
+console.log(button);
 
 function menuToggle () {
-  menu.classList.toggle('show');
+    console.log('inside function');
+    nav.classList.toggle('hide');
 }
