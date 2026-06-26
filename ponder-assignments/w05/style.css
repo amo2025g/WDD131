@@ -63,5 +63,14 @@ header, footer {
     display: grid;
     grid-template-columns: 220px 1fr;
     gap: 20px;
-}
+    }
+    .rating {
+        line-height: 3;
+    }
+    .review {
+        padding-left: 25px;
+    }
+    .review h2 {
+        text-indent: 10px;
+    }
 }
