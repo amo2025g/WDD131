@@ -1,0 +1,112 @@
+body {
+  border: 2px solid black;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(79, 59, 83);
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  max-width: 2000px;
+  gap: 5px;
+  border-top: 2px solid rgb(218, 171, 17);
+  font-size: 15px;
+  padding: 5px;
+}
+
+nav a {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(184, 23, 85);
+}
+
+main {
+  display: grid;
+  border-top: 2px solid rgb(218, 171, 17);
+}
+t
+.info {
+  border-bottom: 2px solid rgb(218, 171, 17);
+  padding-left: 20px;
+  padding: 5px;
+}
+
+.info p {
+  font-size: 15px;
+  display: flex;
+  justify-content: right;
+  margin-right: 50px;
+}
+
+#date {
+  font-style: italic;
+}
+
+.book {
+  padding: 40px;
+}
+
+h3 {
+  font-size: 18px;
+  color: rgb(184, 23, 85);
+  font-weight: bold;
+}
+
+.book img {
+  width: 250px;
+}
+
+.book p {
+  font-size: 15px;
+}
+
+footer {
+  max-width: 2000px;
+  text-align: center;
+  margin: 1rem auto;
+  padding: 20px;
+  font-size: 10px;
+  border-top: 2px solid rgb(218, 171, 17);
+}
+
+@media screen and (min-width: 700px) {
+  nav {
+    gap: 40px;
+  }
+  nav a {
+    margin-right: 40px;
+  }
+
+  .info {
+    padding-left: 30px;
+    padding: 10px;
+    margin-left: 400px;
+    border-right: 2px solid black;
+  }
+
+  .book img {
+    margin-left: 100px;
+    width: 250px;
+  }
+
+  .info p, .book p, nav a, footer {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  main {
+    display: flex;
+  }
+
+}
