@@ -47,4 +47,23 @@ const movies = [
         // Code for going through each movie and creating content for that movie
     
     });
-          
+
+const movieList = document.getElementById("movie-list");
+
+movies.forEach(movie => {
+    const movieSummary = `
+        <article class="movie-card">
+            <img src="${movie.imgSrc}" alt="${movie.imgAlt}">
+            <div class="movie-info">
+                <h2>${movie.title}</h2>
+                <p><strong>Release Date:</strong> ${movie.date}</p>
+                <p><strong>Rating:</strong> ${movie.ages}</p>
+                <p><strong>Genre:</strong> ${movie.genre}</p>
+                <p><strong>Stars:</strong> ${movie.stars}</p>
+                <p>${movie.description}</p>
+            </div>
+        </article>
+    `;
+
+    movieList.innerHTML += movieSummary;
+});
