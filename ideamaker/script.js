@@ -34,14 +34,13 @@ games.forEach(game => {
     const card = document.createElement("article");
     card.classList.add("card");
     card.innerHTML =
-    `<a href="${game.href}" class="card-link">
-    <img class="game-image" src="${game.image}" alt="${game.title}">
-    <div>
-        <h2>${game.title}</h2>
-        <p>${game.description}</p>
-        <button>${game.button}</button>
-    </div>
-    </a>`;
+        `<a href="${game.href}" class="card-link">
+        <img class="game-image" src="${game.image}" alt="${game.title}">
+        <div>
+            <h2>${game.title}</h2>
+            <p>${game.description}</p>
+            <button>${game.button}</button>
+        </div>`;
     content.appendChild(card);
 });
 
