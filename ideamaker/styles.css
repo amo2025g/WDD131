@@ -202,145 +202,120 @@ footer button {
         flex-direction: column;
         padding: 15px;
         gap: 15px;
+        text-align:center;
     }
 
-    .art-left, .art-right {
-        width: 100%;
-        max-width: 250px;
-        height: 120px;
+    .art-left,
+    .art-right {
+        width:100%;
+        max-width:250px;
+        height:120px;
     }
 
     header h1 {
-        font-size: 2rem;
-        line-height: 1;
+        font-size:2rem;
     }
 
     .header img {
-        width: 45px;
+        width:45px;
     }
 
-    .hero, hr {
-        width: 95%;
+    .hero,
+    hr {
+        width:95%;
     }
+
 
     main {
-        display: grid;
-        grid-template-columns: 280px 1fr;
-        gap: 15px;
-        padding: 15px;
-        margin: 0 auto;
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        padding:15px;
+        margin:0 auto;
+        gap:25px;
     }
+
 
     .sidebar {
-        width: auto;
-        padding: 0;
+        width:100%;
+        padding:0;
     }
 
-    .search input {
-        width: 100%;
-    }
 
     .idea-list {
-        height: 250px;
+        height:250px;
     }
 
-    .content {
-        width: 100%;
-        align-items: center;
-        overflow-y: scroll;
+
+    .wheel-container {
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
     }
 
-    .card {
-        display: grid;
-        grid-template-columns: 90px 1fr;
-        gap: 10px;
-        width: 100%;
-        padding: 10px;
-        text-align: left;
+
+    #wheel {
+        width:260px;
+        height:260px;
     }
 
-    .game-image {
-        width: 90px;
-        height: 90px;
-        margin: 0;
+
+    #checklist {
+        width:100%;
+        max-width:300px;
     }
 
-    .card button {
-        width: 100%;
-    }
 
     footer {
-        flex-direction: column;
-        gap: 10px;
-        padding: 15px;
-    }
-
-    footer button {
-        width: 200px;
+        flex-direction:column;
+        gap:10px;
+        text-align:center;
     }
 }
-@media screen and (max-width: 600px) {
+
+
+@media screen and (max-width:600px) {
+
+    header h1 {
+        font-size:1.6rem;
+    }
+
+
+    .hero {
+        font-size:14px;
+    }
+
 
     main {
-        display: grid;
-        grid-template-columns: 120px 1fr;
-        gap: 10px;
-        padding: 10px;
+        padding:10px;
     }
 
-    title {
-      font-size: 20px;
-    }
-
-    .header {
-      display: flex;
-      height: 30px;
-    }
-
-    .sidebar {
-        padding: 0;
-    }
 
     .list-title h2 {
-        font-size: 14px;
+        font-size:16px;
     }
+
 
     .idea-list {
-        height: 300px;
-        font-size: 12px;
+        height:220px;
+        font-size:13px;
     }
 
-    .search {
-        gap: 5px;
+
+    #wheel {
+        width:220px;
+        height:220px;
     }
 
-    .search button {
-        padding: 5px;
+
+    #spinBtn {
+        width:80%;
     }
 
-    .content {
-        align-items: stretch;
-        gap: 10px;
-    }
 
-    .card {
-        grid-template-columns: 60px 1fr;
-        padding: 8px;
-        gap: 8px;
-        font-size: 12px;
-    }
-
-    .game-image {
-        width: 60px;
-        height: 60px;
-    }
-
-    .card h2 {
-        font-size: 14px;
-    }
-
-    .card button {
-        padding: 5px;
-        font-size: 12px;
+    #result {
+        font-size:18px;
+        text-align:center;
     }
 }
