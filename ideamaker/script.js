@@ -2,19 +2,19 @@ const games = [
     {
         title: "YURI'S TAFFY QUIZ",
         description: "Have no idea what to make but know what you tend to write? Take a short quiz and discover which type of creative prompt best best suits you.",
-        image: "https://placehold.co/220x180?text=Quiz",
+        image: "images/taffy.png",
         button: "Start Quiz"
     },
     {
         title: "YURI'S PEPPERMINT WHEEL",
         description: "Spin the wheel and receive a completely random creative idea.",
-        image: "https://placehold.co/220x180?text=Wheel",
+        image: "images/peppermint.png",
         button: "Spin"
     },
     {
         title: "CANDY HEARTS STORY GENERATOR",
         description: "Generate a setting, characters, conflict, and story prompt instantly.",
-        image: "https://placehold.co/220x180?text=Story",
+        image: "images/candyhearts.png",
         button: "Generate"
     }
 ];

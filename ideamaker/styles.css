@@ -32,7 +32,7 @@ header {
     min-width: 180px;
     height: 120px;
     border: 2px solid black;
-    background-image: url("https://i.pinimg.com/736x/f4/88/78/f4887810dc546390f59b8224717a8890.jpg");
+    background-image: url("images/candies.png");
     background-size: cover;
     background-position: center;
 }
