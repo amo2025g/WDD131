@@ -282,6 +282,15 @@ footer button {
         padding:10px;
     }
 
+    title {
+      font-size: 20px;
+    }
+
+    .header {
+      display: flex;
+      height: 30px;
+    }
+
     .sidebar {
         padding:0;
     }
