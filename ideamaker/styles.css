@@ -218,8 +218,8 @@ footer button {
     }
 
     main {
-        display: grid;
-        grid-template-columns: 35% 65%;
+        display:grid;
+        grid-template-columns:280px 1fr;
         gap: 15px;
         padding: 15px;
         margin: 0 auto;
@@ -271,5 +271,61 @@ footer button {
 
     footer button {
         width: 200px;
+    }
+}
+@media screen and (max-width:600px) {
+
+    main {
+        display:grid;
+        grid-template-columns: 120px 1fr;
+        gap:10px;
+        padding:10px;
+    }
+
+    .sidebar {
+        padding:0;
+    }
+
+    .list-title h2 {
+        font-size:14px;
+    }
+
+    .idea-list {
+        height:300px;
+        font-size:12px;
+    }
+
+    .search {
+        gap:5px;
+    }
+
+    .search button {
+        padding:5px;
+    }
+
+    .content {
+        align-items:stretch;
+        gap:10px;
+    }
+
+    .card {
+        grid-template-columns:60px 1fr;
+        padding:8px;
+        gap:8px;
+        font-size:12px;
+    }
+
+    .game-image {
+        width:60px;
+        height:60px;
+    }
+
+    .card h2 {
+        font-size:14px;
+    }
+
+    .card button {
+        padding:5px;
+        font-size:12px;
     }
 }
