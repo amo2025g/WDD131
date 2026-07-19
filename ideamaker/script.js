@@ -1,13 +1,13 @@
 const games = [
     {
         title: "YURI'S TAFFY QUIZ",
-        description: "Take a short quiz and discover which type of creative idea best matches you.",
+        description: "Have no idea what to make but know what you tend to write? Take a short quiz and discover which type of creative prompt best best suits you.",
         image: "https://placehold.co/220x180?text=Quiz",
         button: "Start Quiz"
     },
     {
         title: "YURI'S PEPPERMINT WHEEL",
-        description: "Spin the wheel and receive a completely random creative prompt.",
+        description: "Spin the wheel and receive a completely random creative idea.",
         image: "https://placehold.co/220x180?text=Wheel",
         button: "Spin"
     },
