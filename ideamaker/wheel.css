@@ -79,8 +79,7 @@ hr {
 }
 
 main {
-    display: grid;
-    grid-template-columns: 280px 1fr;
+    display: flex;
     gap: 20px;
     padding: 30px;
 }
