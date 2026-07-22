@@ -378,6 +378,7 @@ searchForm.addEventListener(
 	'submit',
 	function(event) {
 		event.preventDefault();
+
 		const searchTerm =
 			searchInput.value
 				.toLowerCase()
@@ -389,18 +390,21 @@ searchForm.addEventListener(
 					Math.random()
 					* recipes.length
 				);
+
 			displayRecipes([
 				recipes[randomIndex]
 			]);
 
 			return;
 		}
+
 		const filteredRecipes =
 			recipes.filter(recipe => {
 
 				const name =
 					recipe.name
 						.toLowerCase();
+
 				const description =
 					recipe.description
 						.toLowerCase();
@@ -409,18 +413,24 @@ searchForm.addEventListener(
 					recipe.tags
 						.join(' ')
 						.toLowerCase();
+
 				return (
-          name.includes(searchTerm) ||
-          description.includes(searchTerm) ||
-          tags.includes(searchTerm)
-        );
-      });
-      filteredRecipes.sort( (a, b) => {
-        return a.name.localeCompare( b.name );
-      }
-    );
-    displayRecipes(
-      filteredRecipes
-    );
-  }
+					name.includes(searchTerm) ||
+					description.includes(searchTerm) ||
+					tags.includes(searchTerm)
+				);
+			});
+
+		filteredRecipes.sort(
+			(a, b) => {
+				return a.name.localeCompare(
+					b.name
+				);
+			}
+		);
+
+		displayRecipes(
+			filteredRecipes
+		);
+	}
 );
