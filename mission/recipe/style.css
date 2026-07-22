@@ -1,3 +1,185 @@
-.card {
-  font-weight: bold;
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+color: #333;
+background-color: #fff;
+}
+
+img {
+max-width: 100%;
+display: block;
+}
+
+h1,
+h2 {
+font-family: "Amatic SC", Arial, Helvetica, sans-serif;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo-title img {
+  width: 70px;
+}
+
+.logo-title h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+
+
+.search-area {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-area input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1.5px solid #333;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  font-size: 1rem;
+}
+
+.search-area button {
+  width: 50px;
+  border: 1.5px solid #333;
+  background-color: white;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  cursor: pointer;
+}
+
+.search-area button img {
+  width: 25px;
+  margin: auto;
+}
+
+main {
+padding: 2rem 1rem;
+}
+
+.recipe-card {
+display: flex;
+flex-direction: column;
+max-width: 900px;
+margin: 0 auto;
+border: 2px solid black;
+border-radius: 10px;
+padding: 1rem;
+gap: 1.5rem;
+}
+
+.recipe-image {
+flex: 1;
+}
+
+.recipe-image img {
+width: 100%;
+height: auto;
+}
+
+.recipe-content {
+flex: 1;
+}
+
+.recipe-content h2 {
+margin: 0.5rem 0;
+font-size: 3rem;
+}
+
+.category {
+margin: 0;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.rating {
+display: block;
+margin: 0.5rem 0;
+font-size: 1.2rem;
+}
+
+.recipe-description {
+line-height: 1.6;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+padding: 2rem 1rem;
+text-align: center;
+}
+
+.social {
+display: flex;
+justify-content: center;
+gap: 1rem;
+}
+
+.social img {
+width: 40px;
+height: 40px;
+}
+
+.sr-only {
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap;
+border: 0;
+}
+
+@media screen and (min-width: 700px) {
+.logo-title img {
+  width: 30%;
+}
+
+.site-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-area {
+    width: 500px;
+  }
+
+  .recipe-card {
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .recipe-image {
+    flex: 1;
+  }
+
+  .recipe-content {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  footer {
+    display: inline;
+  }
 }
